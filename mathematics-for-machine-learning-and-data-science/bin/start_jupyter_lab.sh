@@ -2,6 +2,7 @@
 
 echo "Starting jupyter lab"
 
+echo $PDIR
 jupyter lab &
 
 disown
